@@ -9,3 +9,26 @@ html, body {
 h1, h2, h3, h4, h5, h6, p {
  margin-bottom: 16px
 }
+
+@font-face {
+    font-family: Gill;
+    src: url(../fonts/GillSans.ttc);
+  }
+  @font-face {
+    font-family: PTBold;
+    src: url(../fonts/PTSerif-Bold.ttf);
+  }
+  @font-face {
+    font-family: PTBoldIta;
+    src: url(../fonts/PTSerif-BoldItalic.ttf);
+  }
+  @font-face {
+    font-family: PTIta;
+    src: url(../fonts/PTSerif-Italic.ttf);
+  }
+  @font-face {
+    font-family: PTReg;
+    src: url(../fonts/PTSerif-Regular.ttf);
+  }
+
+ 

@@ -12,4 +12,316 @@ h1, h2, h3, h4, h5, h6, p {
   margin-bottom: 16px;
 }
 
+@font-face {
+  font-family: Gill;
+  src: url(../fonts/GillSans.ttc);
+}
+@font-face {
+  font-family: PTBold;
+  src: url(../fonts/PTSerif-Bold.ttf);
+}
+@font-face {
+  font-family: PTBoldIta;
+  src: url(../fonts/PTSerif-BoldItalic.ttf);
+}
+@font-face {
+  font-family: PTIta;
+  src: url(../fonts/PTSerif-Italic.ttf);
+}
+@font-face {
+  font-family: PTReg;
+  src: url(../fonts/PTSerif-Regular.ttf);
+}
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 980px;
+  height: 93px;
+}
+nav .logo {
+  width: 109px;
+  height: 50px;
+  background-image: url(../images/logo-white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .nav-links .white-text {
+  color: white;
+}
+nav .nav-links .black-text {
+  color: black;
+}
+nav .nav-links a {
+  text-decoration: none;
+  color: white;
+  margin-left: 20px;
+  font-family: Gill;
+  font-size: 16px;
+}
+nav .nav-links a:hover {
+  font-weight: bold;
+}
+nav .nav-links span {
+  color: #EE4367;
+  margin-left: 20px;
+}
+
+.underline .white-underline {
+  margin: 0 auto;
+  width: 980px;
+  height: 1px;
+  background-color: white;
+  position: relative;
+  z-index: 98;
+}
+.underline .black-underline {
+  margin: 0 auto;
+  width: 980px;
+  height: 1px;
+  background-color: black;
+  position: relative;
+  z-index: 99;
+}
+
+.home {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.home .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 100%;
+  height: 500px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/home-hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: -95px;
+}
+.home .hero .hero-text {
+  text-align: center;
+  color: white;
+  max-width: 500px;
+}
+.home .hero .hero-text h1 {
+  margin-top: 63px;
+  font-size: 40px;
+  font-family: PTReg;
+}
+.home .hero .hero-text h3 {
+  color: #EE4367;
+  font-size: 20px;
+  font-family: Gill;
+}
+.home .hero .hero-text p {
+  margin-top: 48px;
+  font-size: 20px;
+  font-family: Gill;
+}
+.home .hero .hero-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 121px;
+  height: 40px;
+  background-color: #EE4367;
+  color: white;
+  margin-top: 48px;
+  cursor: pointer;
+  font-family: Gill;
+}
+.home .home-quote {
+  max-width: 1280px;
+  height: 300px;
+}
+.home .home-quote .quote-text {
+  margin: 77px auto 0 auto;
+  max-width: 789px;
+  height: 157px;
+}
+.home .home-quote .quote-text h3 {
+  max-width: 789px;
+  height: 90px;
+  font-size: 18px;
+  color: rgb(255, 209, 64);
+  font-family: Gill;
+  font-style: italic;
+  font-weight: bold;
+}
+.home .home-quote .quote-text p {
+  color: #EE4367;
+  font-family: PTReg;
+  margin-bottom: -2px;
+}
+.home .home-quote .quote-text span {
+  font-size: 10px;
+  font-family: PTReg;
+  color: #A8A8A8;
+}
+.home .upcoming-events {
+  max-width: 1280px;
+  min-height: 320px;
+  background-color: #540D6E;
+}
+.home .upcoming-events h1 {
+  font-family: Gill;
+  font-size: 25px;
+  letter-spacing: 3px;
+  color: white;
+  padding: 48px 0 0 40px;
+}
+.home .upcoming-events .events-underline {
+  width: 290px;
+  height: 2px;
+  background-color: white;
+  margin-left: 40px;
+}
+.home .upcoming-events .events-holder {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1200px;
+  height: 125px;
+  margin: 35px auto 0 auto;
+}
+.home .upcoming-events .events-holder .events {
+  display: flex;
+  justify-content: space-between;
+  width: 220px;
+  height: 100%;
+}
+.home .upcoming-events .events-holder .events .left-half {
+  width: 80px;
+  height: 100%;
+}
+.home .upcoming-events .events-holder .events .left-half .date {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 60px;
+  height: 60px;
+  background-color: #EE4367;
+}
+.home .upcoming-events .events-holder .events .left-half .date span {
+  margin-top: 8px;
+  font-family: Gill;
+  font-size: 22px;
+  color: white;
+}
+.home .upcoming-events .events-holder .events .left-half .date p {
+  font-family: Gill;
+  font-size: 12px;
+  color: white;
+}
+.home .upcoming-events .events-holder .events .right-half {
+  width: 140px;
+  height: 100%;
+}
+.home .upcoming-events .events-holder .events .right-half .right-header {
+  color: white;
+  font-family: Gill;
+  font-size: 15px;
+}
+.home .upcoming-events .events-holder .events .right-half .right-link a {
+  text-decoration: none;
+  color: #EE4367;
+  font-family: Gill;
+  font-size: 13px;
+}
+
+@media all and (max-width: 800px) {
+  .home .home-quote {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .home .events-holder {
+    width: 90%;
+    flex-direction: column;
+    min-height: 1280px;
+  }
+}
+.footer {
+  margin: 0 auto;
+  max-width: 1280px;
+  height: 455px;
+  background-color: #EE4367;
+  overflow: hidden;
+}
+.footer .white-logo {
+  width: 110px;
+  height: 50px;
+  margin: 36px auto 0 auto;
+  background-image: url(../images/logo-white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer .info {
+  margin: 45px auto 0 auto;
+}
+.footer .info p {
+  text-align: center;
+  font-family: Gill;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 2px;
+}
+.footer .subscribe {
+  max-width: 696px;
+  height: 60px;
+  background-color: #F56B88;
+  margin: 46px auto 0 auto;
+  position: relative;
+  display: flex;
+  justify-content: left;
+  align-items: center;
+  padding-left: 10px;
+  font-family: Gill;
+  color: white;
+  font-size: 16px;
+}
+.footer .subscribe .subscribe-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #EE4367;
+  font-family: Gill;
+  font-size: 16px;
+  letter-spacing: 2px;
+  width: 167px;
+  height: 100%;
+  background-color: white;
+  position: absolute;
+  right: 0px;
+  cursor: pointer;
+}
+.footer .socials {
+  display: flex;
+  justify-content: space-between;
+  width: 155px;
+  height: 32px;
+  margin: 30px auto 0 auto;
+}
+.footer .socials i {
+  color: white;
+  font-size: 32px;
+  cursor: pointer;
+}
+.footer .copywrite {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+.footer .copywrite p {
+  color: white;
+  font-family: Gill;
+  font-size: 16px;
+}
+
 /*# sourceMappingURL=styles.css.map */
