@@ -1,0 +1,51 @@
+.food {
+    max-width: $nav-width;
+    margin: 0 auto;
+    .food-hero {
+        width: 100%;
+        height: 400px;
+        background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75),), url(../images/1.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: relative;
+        margin-top: 49px;
+        margin-bottom: 50px;
+        h1 {
+            position: absolute;
+            left: 10px;
+            bottom: 0px;
+            text-shadow: 3px 3px #937924;
+            font-family: Gill;
+            font-size: 140px;
+            color: $yellow;
+        }
+    }
+    .gallery-description {
+        max-width: $nav-width;
+        height: 133px;
+        // background-color: gray;
+        display: flex;
+        font-family: Gill;
+        font-size: 16px;
+        font-style: italic;
+
+        .left-text {
+            width: 490px;
+            height: 100%;
+            // background-color: green;
+            margin-right: 39px;
+        }
+        .right-text {
+            width: 451px;
+            height: 100%;
+            // background-color: yellow;
+        }
+    }
+}
+
+@media all and (max-width: 800px) {
+    .food {
+        width: 90%;
+    }
+}

@@ -1,0 +1,42 @@
+.about {
+    margin: 0 auto;
+    max-width: $nav-width;
+
+    .about-hero {
+        max-width: 980px;
+        height: 379px;
+        background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75),), url(../images/about.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 85px;
+    }
+    .about-header {
+        h1 {
+            max-width: 200px;
+            font-family: Gill;
+            font-size: 25px;
+            color: black;
+            border-bottom: solid 2px black;
+            letter-spacing: 2px;
+            margin-top: 10px;
+            margin-bottom: 41px;
+        }
+    }
+    .about-text {
+        p {
+            font-family: Gill;
+            font-size: 16px;
+            font-style: italic;
+            color: black;
+            margin-top: -16px;
+            margin-bottom: 95px;
+        }
+    }
+}
+
+@media all and (max-width: 800px) {
+    .about {
+        width: 90%;
+    }
+}

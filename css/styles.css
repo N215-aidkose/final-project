@@ -40,10 +40,18 @@ nav {
   max-width: 980px;
   height: 93px;
 }
-nav .logo {
+nav .logo-white {
   width: 109px;
   height: 50px;
   background-image: url(../images/logo-white.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+nav .logo-black {
+  width: 109px;
+  height: 50px;
+  background-image: url(../images/logo-black.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -65,7 +73,7 @@ nav .nav-links a:hover {
   font-weight: bold;
 }
 nav .nav-links span {
-  color: #EE4367;
+  color: #ee4469;
   margin-left: 20px;
 }
 
@@ -114,7 +122,7 @@ nav .nav-links span {
   font-family: PTReg;
 }
 .home .hero .hero-text h3 {
-  color: #EE4367;
+  color: #ee4469;
   font-size: 20px;
   font-family: Gill;
 }
@@ -129,7 +137,7 @@ nav .nav-links span {
   align-items: center;
   width: 121px;
   height: 40px;
-  background-color: #EE4367;
+  background-color: #ee4469;
   color: white;
   margin-top: 48px;
   cursor: pointer;
@@ -148,13 +156,13 @@ nav .nav-links span {
   max-width: 789px;
   height: 90px;
   font-size: 18px;
-  color: rgb(255, 209, 64);
+  color: #ffd140;
   font-family: Gill;
   font-style: italic;
   font-weight: bold;
 }
 .home .home-quote .quote-text p {
-  color: #EE4367;
+  color: #ee4469;
   font-family: PTReg;
   margin-bottom: -2px;
 }
@@ -166,7 +174,7 @@ nav .nav-links span {
 .home .upcoming-events {
   max-width: 1280px;
   min-height: 320px;
-  background-color: #540D6E;
+  background-color: #540d6e;
 }
 .home .upcoming-events h1 {
   font-family: Gill;
@@ -205,7 +213,7 @@ nav .nav-links span {
   flex-direction: column;
   width: 60px;
   height: 60px;
-  background-color: #EE4367;
+  background-color: #ee4469;
 }
 .home .upcoming-events .events-holder .events .left-half .date span {
   margin-top: 8px;
@@ -229,7 +237,7 @@ nav .nav-links span {
 }
 .home .upcoming-events .events-holder .events .right-half .right-link a {
   text-decoration: none;
-  color: #EE4367;
+  color: #ee4469;
   font-family: Gill;
   font-size: 13px;
 }
@@ -245,11 +253,366 @@ nav .nav-links span {
     min-height: 1280px;
   }
 }
+.about {
+  margin: 0 auto;
+  max-width: 980px;
+}
+.about .about-hero {
+  max-width: 980px;
+  height: 379px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/about.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 85px;
+}
+.about .about-header h1 {
+  max-width: 200px;
+  font-family: Gill;
+  font-size: 25px;
+  color: black;
+  border-bottom: solid 2px black;
+  letter-spacing: 2px;
+  margin-top: 10px;
+  margin-bottom: 41px;
+}
+.about .about-text p {
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+  color: black;
+  margin-top: -16px;
+  margin-bottom: 95px;
+}
+
+@media all and (max-width: 800px) {
+  .about {
+    width: 90%;
+  }
+}
+.gallery {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.gallery h1 {
+  font-family: Gill;
+  font-size: 25px;
+  color: black;
+  letter-spacing: 2px;
+  margin-top: 64px;
+}
+.gallery .gallery-underline {
+  width: 200px;
+  height: 2px;
+  background-color: black;
+  margin-top: -6px;
+  margin-bottom: 30px;
+}
+.gallery .gallery-top {
+  max-width: 980px;
+  height: 187px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.gallery .gallery-top .yellow-pic {
+  width: 489px;
+  height: 100%;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .gallery-top .pink-pic {
+  width: 187px;
+  height: 100%;
+  background-image: linear-gradient(rgba(238, 68, 105, 0.75), rgba(238, 68, 105, 0.75)), url(../images/2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .gallery-top .green-pic {
+  width: 265px;
+  height: 100%;
+  background-image: linear-gradient(rgba(8, 173, 105, 0.75), rgba(8, 173, 105, 0.75)), url(../images/3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .gallery-bottom {
+  max-width: 980px;
+  height: 306px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 60px;
+}
+.gallery .gallery-bottom .purple-pic {
+  width: 603px;
+  height: 100%;
+  background-image: linear-gradient(rgba(84, 13, 110, 0.75), rgba(84, 13, 110, 0.75)), url(../images/4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.gallery .gallery-bottom .teal-pic {
+  width: 355px;
+  height: 100%;
+  background-image: linear-gradient(rgba(59, 206, 171, 0.75), rgba(59, 206, 171, 0.75)), url(../images/5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@media all and (max-width: 800px) {
+  .gallery {
+    width: 90%;
+  }
+}
+.food {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.food .food-hero {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75)), url(../images/1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 49px;
+  margin-bottom: 50px;
+}
+.food .food-hero h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  text-shadow: 3px 3px #937924;
+  font-family: Gill;
+  font-size: 140px;
+  color: #ffd140;
+}
+.food .gallery-description {
+  max-width: 980px;
+  height: 133px;
+  display: flex;
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+}
+.food .gallery-description .left-text {
+  width: 490px;
+  height: 100%;
+  margin-right: 39px;
+}
+.food .gallery-description .right-text {
+  width: 451px;
+  height: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .food {
+    width: 90%;
+  }
+}
+.dj {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.dj .dj-hero {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(238, 68, 105, 0.75), rgba(238, 68, 105, 0.75)), url(../images/2.jpeg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 49px;
+  margin-bottom: 50px;
+}
+.dj .dj-hero h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  text-shadow: 3px 3px #84253a;
+  font-family: Gill;
+  font-size: 140px;
+  color: #ee4469;
+}
+.dj .gallery-description {
+  max-width: 980px;
+  height: 133px;
+  display: flex;
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+}
+.dj .gallery-description .left-text {
+  width: 490px;
+  height: 100%;
+  margin-right: 39px;
+}
+.dj .gallery-description .right-text {
+  width: 451px;
+  height: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .dj {
+    width: 90%;
+  }
+}
+.speech {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.speech .speech-hero {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(8, 173, 105, 0.75), rgba(8, 173, 105, 0.75)), url(../images/3.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 49px;
+  margin-bottom: 50px;
+}
+.speech .speech-hero h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  text-shadow: 3px 3px #045231;
+  font-family: Gill;
+  font-size: 140px;
+  color: #08ad69;
+}
+.speech .gallery-description {
+  max-width: 980px;
+  height: 133px;
+  display: flex;
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+}
+.speech .gallery-description .left-text {
+  width: 490px;
+  height: 100%;
+  margin-right: 39px;
+}
+.speech .gallery-description .right-text {
+  width: 451px;
+  height: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .speech {
+    width: 90%;
+  }
+}
+.open {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.open .open-hero {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(84, 13, 110, 0.75), rgba(84, 13, 110, 0.75)), url(../images/4.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 49px;
+  margin-bottom: 50px;
+}
+.open .open-hero h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  text-shadow: 3px 3px #1c0425;
+  font-family: Gill;
+  font-size: 140px;
+  color: #540d6e;
+}
+.open .gallery-description {
+  max-width: 980px;
+  height: 133px;
+  display: flex;
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+}
+.open .gallery-description .left-text {
+  width: 490px;
+  height: 100%;
+  margin-right: 39px;
+}
+.open .gallery-description .right-text {
+  width: 451px;
+  height: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .open {
+    width: 90%;
+  }
+}
+.international {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.international .international-hero {
+  width: 100%;
+  height: 400px;
+  background-image: linear-gradient(rgba(59, 206, 171, 0.75), rgba(59, 206, 171, 0.75)), url(../images/5.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-top: 49px;
+  margin-bottom: 50px;
+}
+.international .international-hero h1 {
+  position: absolute;
+  left: 10px;
+  bottom: 0px;
+  text-shadow: 3px 3px #1c6050;
+  font-family: Gill;
+  font-size: 140px;
+  color: #3bceab;
+}
+.international .gallery-description {
+  max-width: 980px;
+  height: 133px;
+  display: flex;
+  font-family: Gill;
+  font-size: 16px;
+  font-style: italic;
+}
+.international .gallery-description .left-text {
+  width: 490px;
+  height: 100%;
+  margin-right: 39px;
+}
+.international .gallery-description .right-text {
+  width: 451px;
+  height: 100%;
+}
+
+@media all and (max-width: 800px) {
+  .international {
+    width: 90%;
+  }
+  .international .international-hero h1 {
+    font-size: 100px;
+  }
+}
 .footer {
   margin: 0 auto;
   max-width: 1280px;
   height: 455px;
-  background-color: #EE4367;
+  background-color: #ee4469;
   overflow: hidden;
 }
 .footer .white-logo {
@@ -289,7 +652,7 @@ nav .nav-links span {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #EE4367;
+  color: #ee4469;
   font-family: Gill;
   font-size: 16px;
   letter-spacing: 2px;

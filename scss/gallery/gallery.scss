@@ -1,0 +1,88 @@
+.gallery {
+    max-width: $nav-width;
+    margin: 0 auto;
+
+    h1 {
+        font-family: Gill;
+        font-size: 25px;
+        color: black;
+        letter-spacing: 2px;
+        margin-top: 64px;
+    }
+    .gallery-underline {
+        width: 200px;
+        height: 2px;
+        background-color: black;
+        margin-top: -6px;
+        margin-bottom: 30px;
+    }
+    .gallery-top {
+        max-width: $nav-width;
+        height: 187px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 20px;
+        // background-color: blanchedalmond;
+        .yellow-pic {
+            width: 489px;
+            height: 100%;
+            background-image: linear-gradient(rgba(255, 209, 64, 0.75), rgba(255, 209, 64, 0.75),), url(../images/1.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            // background-color: yellow;
+        }
+        .pink-pic {
+            width: 187px;
+            height: 100%;
+            background-image: linear-gradient(rgba(238, 68, 105, 0.75), rgba(238, 68, 105, 0.75),), url(../images/2.jpeg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            // background-color: red;
+        }
+        .green-pic {
+            width: 265px;
+            height: 100%;
+            background-image: linear-gradient(rgba(8, 173, 105, 0.75), rgba(8, 173, 105, 0.75),), url(../images/3.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            // background-color: green;
+        }
+    }
+    .gallery-bottom {
+        max-width: $nav-width;
+        height: 306px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 60px;
+        // background-color: pink;
+        .purple-pic {
+            width: 603px;
+            height: 100%;
+            background-image: linear-gradient(rgba(84, 13, 110, 0.75), rgba(84, 13, 110, 0.75),), url(../images/4.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .teal-pic {
+            width: 355px;
+            height: 100%;
+            background-image: linear-gradient(rgba(59, 206, 171, 0.75), rgba(59, 206, 171, 0.75),), url(../images/5.png);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    }
+}
+
+
+
+@media all and (max-width: 800px) {
+    .gallery {
+        width: 90%;
+    }
+}
