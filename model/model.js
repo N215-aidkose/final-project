@@ -149,8 +149,68 @@ var galleryContent = `      <div class="gallery">
   <a class="teal-pic" href="#international"></a>
 </div>
 </div>`;
-var blogContent = ``;
+var blogContent = `      <div class="blog">
+<h1>BLOG:</h1>
+<div class="blog-underline"></div>
+<div class="blog-container">
+  <div class="blog-left">
+    <a href="#jun" class="jun">
+      <div class="blog-date">06 JUN</div>
+      <div class="blog-image"></div>
+      <div class="blog-text">
+        <span>Sed et persipiatis unde</span>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+        quae ab illo inventore veritatis et quasi
+      </div>
+    </a>
+    <a href="#aug" class="aug">
+      <div class="blog-date">30 AUG</div>
+      <div class="blog-image"></div>
+      <div class="blog-text">
+        <span>Sed et persipiatis unde</span>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+        quae ab illo inventore veritatis et quasi
+      </div>
+    </a>
+    <a href="#dec" class="dec">
+      <div class="blog-date">23 DEC</div>
+      <div class="blog-image"></div>
+      <div class="blog-text">
+        <span>Sed et persipiatis unde</span>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+        quae ab illo inventore veritatis et quasi
+      </div>
+    </a>
+  </div>
+  <div class="blog-right">
+    <a href="#jul" class="jul">
+      <div class="blog-date">30 JUL</div>
+      <div class="blog-image"></div>
+      <div class="blog-text">
+        <span>Sed et persipiatis unde</span>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+        quae ab illo inventore veritatis et quasi
+      </div>
+    </a>
+    <a href="#nov" class="nov">
+      <div class="blog-date">23 NOV</div>
+      <div class="blog-image"></div>
+      <div class="blog-text">
+        <span>Sed et persipiatis unde</span>
+        Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+        accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+        quae ab illo inventore veritatis et quasi
+      </div>
+    </a>
+  </div>
+</div>
+</div>`;
 var contactContent = ``;
+
 var foodContent = `<div class="food">
 <div class="food-hero"><h1>1. food festival</h1></div>
 <div class="gallery-description">
