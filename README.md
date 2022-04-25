@@ -14,3 +14,5 @@ Upload your project to Github and Web4 and add your Web4 link to the README file
 
 Here is the link:
 https://in-info-web4.informatics.iupui.edu/~aidkose/final-project/index.html
+
+For whatever reason, when you change pages, the logo doesn't load automatically, but if you ctrl+shift+r, it will pop up. I don't know why that is, it must be something to do with the mvc.
