@@ -1,0 +1,70 @@
+.blog-screen {
+    max-width: $nav-width;
+    margin: 0 auto;
+
+    .blog-screen-hero {
+        max-width: $nav-width;
+        height: 300px;
+        background-image: linear-gradient(rgba(238, 68, 105, 0.75), rgba(238, 68, 105, 0.75),), url(../images/blog.jpg);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        margin-top: 55px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // background-color: tan;
+
+        .blog-date {
+            width: 155px;
+            height: 155px;
+            background-color: $pink;
+            font-family: Gill;
+            font-size: 57px;
+            font-weight: bold;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+    }
+
+    .text-one {
+        margin-top: 55px;
+        span {
+            color: $pink;
+            font-size: 20px;
+            font-family: Gill;
+        }
+
+        p {
+            color: black;
+            font-size: 20px;
+            font-family: Gill;
+        }
+    }
+
+    .text-two {
+        margin-top: 55px;
+        margin-bottom: 150px;
+        span {
+            color: $pink;
+            font-size: 20px;
+            font-family: Gill;
+        }
+
+        p {
+            color: black;
+            font-size: 20px;
+            font-family: Gill;
+        }
+    }
+}
+
+@media all and (max-width: 800px) {
+    .blog-screen {
+        width: 90%;
+    }
+}

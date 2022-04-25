@@ -1,0 +1,80 @@
+.contact {
+    margin: 0 auto;
+    max-width: $nav-width;
+    h1 {
+        font-family: Gill;
+        color: black;
+        font-size: 25px;
+        margin-top: 64px;
+        letter-spacing: 2px;
+    }
+    .contact-underline {
+        max-width: 200px;
+        height: 2px;
+        background-color: black;
+    }
+
+    .contact-wrapper {
+        max-width: $nav-width;
+        // background-color: green;
+        height: 482px;
+        margin-top: 65px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .forms {
+            width: 55%;
+            height: 100%;
+            // background-color: pink;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            input {
+                width: 100%;
+                height: 60px;
+                background-color: $light-gray;
+                border: none;
+                padding-left: 10px;
+            }
+            .message-box {
+                width: 100%;
+                height: 199px;
+                padding-bottom: 130px;
+            }
+        
+        }
+
+        .map {
+            width: 40%;
+            height: 100%;
+            background-image: url(../images/map.jpg);
+            background-position: center;
+            background-size: cover;
+            background-repeat: no-repeat;
+            // background-color: purple;
+        }
+    }
+    
+    .contact-button {
+        width: 168px;
+        height: 60px;
+        background-color: $pink;
+        margin-top: 21px;
+        margin-bottom: 90px;
+        font-family: Gill;
+        font-size: 16px;
+        color: white;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+
+@media all and (max-width: 800px) {
+    .contact {
+        width: 90%;
+    }
+}

@@ -209,7 +209,183 @@ var blogContent = `      <div class="blog">
   </div>
 </div>
 </div>`;
-var contactContent = ``;
+
+var junContent = `      <div class="blog-screen">
+<div class="blog-screen-hero">
+  <div class="blog-date">06 JUN</div>
+</div>
+<div class="text-one">
+  <span>Header #1:</span>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut
+  </p>
+  <p class="bottom">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="text-two">
+  <span>Header #2:</span>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+var julContent = `      <div class="blog-screen">
+<div class="blog-screen-hero">
+  <div class="blog-date">30 JUL</div>
+</div>
+<div class="text-one">
+  <span>Header #1:</span>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut
+  </p>
+  <p class="bottom">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="text-two">
+  <span>Header #2:</span>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+var augContent = `<div class="blog-screen">
+<div class="blog-screen-hero">
+  <div class="blog-date">30 AUG</div>
+</div>
+<div class="text-one">
+  <span>Header #1:</span>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut
+  </p>
+  <p class="bottom">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="text-two">
+  <span>Header #2:</span>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+var novContent = `<div class="blog-screen">
+<div class="blog-screen-hero">
+  <div class="blog-date">23 NOV</div>
+</div>
+<div class="text-one">
+  <span>Header #1:</span>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut
+  </p>
+  <p class="bottom">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="text-two">
+  <span>Header #2:</span>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+var decContent = `<div class="blog-screen">
+<div class="blog-screen-hero">
+  <div class="blog-date">23 DEC</div>
+</div>
+<div class="text-one">
+  <span>Header #1:</span>
+  <p>
+    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa
+    quae ab illo inventore veritatis et quasi architecto beatae vitae
+    dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit
+    aspernatur aut
+  </p>
+  <p class="bottom">
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+<div class="text-two">
+  <span>Header #2:</span>
+  <p>
+    Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet,
+    consectetur, adipisci velit, sed quia non numquam eius modi tempora
+    incidunt ut labore et dolore
+  </p>
+</div>
+</div>`;
+
+var contactContent = `      <div class="contact">
+<h1>CONTACT US:</h1>
+<div class="contact-underline"></div>
+<div class="contact-wrapper">
+  <div class="forms">
+    <input
+      type="text"
+      id="name"
+      name="fname"
+      placeholder="Your Name..."
+    />
+    <input
+      type="text"
+      id="name"
+      name="fname"
+      placeholder="Email Address..."
+    />
+    <input
+      type="text"
+      id="name"
+      name="fname"
+      placeholder="Company..."
+    />
+    <input
+      class="message-box"
+      type="text"
+      id="name"
+      name="fname"
+      placeholder="Message..."
+    />
+  </div>
+  <div class="map"></div>
+</div>
+<div class="contact-button">SEND MESSAGE</div>
+</div>`;
 
 var foodContent = `<div class="food">
 <div class="food-hero"><h1>1. food festival</h1></div>

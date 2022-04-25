@@ -946,6 +946,140 @@ nav .nav-links span {
     margin-top: 38px;
   }
 }
+.blog-screen {
+  max-width: 980px;
+  margin: 0 auto;
+}
+.blog-screen .blog-screen-hero {
+  max-width: 980px;
+  height: 300px;
+  background-image: linear-gradient(rgba(238, 68, 105, 0.75), rgba(238, 68, 105, 0.75)), url(../images/blog.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 55px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.blog-screen .blog-screen-hero .blog-date {
+  width: 155px;
+  height: 155px;
+  background-color: #ee4469;
+  font-family: Gill;
+  font-size: 57px;
+  font-weight: bold;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.blog-screen .text-one {
+  margin-top: 55px;
+}
+.blog-screen .text-one span {
+  color: #ee4469;
+  font-size: 20px;
+  font-family: Gill;
+}
+.blog-screen .text-one p {
+  color: black;
+  font-size: 20px;
+  font-family: Gill;
+}
+.blog-screen .text-two {
+  margin-top: 55px;
+  margin-bottom: 150px;
+}
+.blog-screen .text-two span {
+  color: #ee4469;
+  font-size: 20px;
+  font-family: Gill;
+}
+.blog-screen .text-two p {
+  color: black;
+  font-size: 20px;
+  font-family: Gill;
+}
+
+@media all and (max-width: 800px) {
+  .blog-screen {
+    width: 90%;
+  }
+}
+.contact {
+  margin: 0 auto;
+  max-width: 980px;
+}
+.contact h1 {
+  font-family: Gill;
+  color: black;
+  font-size: 25px;
+  margin-top: 64px;
+  letter-spacing: 2px;
+}
+.contact .contact-underline {
+  max-width: 200px;
+  height: 2px;
+  background-color: black;
+}
+.contact .contact-wrapper {
+  max-width: 980px;
+  height: 482px;
+  margin-top: 65px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.contact .contact-wrapper .forms {
+  width: 55%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.contact .contact-wrapper .forms input {
+  width: 100%;
+  height: 60px;
+  background-color: #F5F5F5;
+  border: none;
+  padding-left: 10px;
+}
+.contact .contact-wrapper .forms .message-box {
+  width: 100%;
+  height: 199px;
+  padding-bottom: 130px;
+}
+.contact .contact-wrapper .map {
+  width: 40%;
+  height: 100%;
+  background-image: url(../images/map.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.contact .contact-button {
+  width: 168px;
+  height: 60px;
+  background-color: #ee4469;
+  margin-top: 21px;
+  margin-bottom: 90px;
+  font-family: Gill;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+@media all and (max-width: 800px) {
+  .contact {
+    width: 90%;
+  }
+}
 .footer {
   margin: 0 auto;
   max-width: 1280px;
